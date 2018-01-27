@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: d82c26394e103774b95421bef27a29a1
-timeCreated: 1516764942
+timeCreated: 1517026422
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -18,7 +18,7 @@ TextureImporter:
     21300022: Flappy Bird Blue 4
     21300024: Flappy Bird Red 4
     21300026: Flappy Bird Green 4
-    21300028: End Game Menu
+    21300028: Pause Menu
     21300030: Button
     21300032: Controller Button
     21300034: Bronze Medal
@@ -27,7 +27,7 @@ TextureImporter:
     21300040: Pause Button
     21300042: Resume Button
     21300044: Ground
-    21300046: Orange Box
+    21300046: Go To Menu Button
     21300048: Play Button
     21300050: Leaderboard Button
     21300052: Twitter Button
@@ -354,7 +354,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: End Game Menu
+      name: Pause Menu
       rect:
         serializedVersion: 2
         x: 581
@@ -469,10 +469,10 @@ TextureImporter:
       name: Ground
       rect:
         serializedVersion: 2
-        x: 23
-        y: 214
-        width: 719
-        height: 238
+        x: 24
+        y: 215
+        width: 717
+        height: 235
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -480,7 +480,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Orange Box
+      name: Go To Menu Button
       rect:
         serializedVersion: 2
         x: 19
