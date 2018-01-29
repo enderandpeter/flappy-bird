@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: d82c26394e103774b95421bef27a29a1
-timeCreated: 1517026422
+timeCreated: 1517246899
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -32,6 +32,7 @@ TextureImporter:
     21300050: Leaderboard Button
     21300052: Twitter Button
     21300054: Instructions
+    21300056: Bottom Ground
   externalObjects: {}
   serializedVersion: 4
   mipmaps:
@@ -545,6 +546,20 @@ TextureImporter:
         height: 241
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Bottom Ground
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 217
+        width: 717
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []

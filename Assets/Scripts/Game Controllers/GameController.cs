@@ -14,7 +14,7 @@ public class GameController : MonoBehaviour {
     // Use this for initialization
     void Awake () {
         MakeSingleton();
-        PlayerPrefs.DeleteAll();
+        //PlayerPrefs.DeleteAll();
         IsGameInitialized();
         
     }
