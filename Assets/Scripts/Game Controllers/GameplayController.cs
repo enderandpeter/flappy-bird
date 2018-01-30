@@ -44,6 +44,19 @@ public class GameplayController : MonoBehaviour {
         {
             if (BirdScript.instance.isAlive)
             {
+                if (BirdScript.instance.score <= 20)
+                { // Bronze
+                    medalImage.sprite = medals[0];
+                }
+                else if (BirdScript.instance.score > 20 && BirdScript.instance.score < 40)
+                { // Silver
+                    medalImage.sprite = medals[1];
+                }
+                else
+                { // Gold
+                    medalImage.sprite = medals[2];
+                }
+
                 pausePanel.SetActive(true);
                 gameOverText.gameObject.SetActive(false);
                 endScore.text = BirdScript.instance.score.ToString();
